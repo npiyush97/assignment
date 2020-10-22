@@ -1,0 +1,33 @@
+body {
+	background-color: #71a58b;
+}
+
+.carousel-inner {
+	height: 150px;
+}
+
+.carousel-caption {
+	top: 50%;
+}
+
+.my-custom-scrollbar {
+	position: relative;
+	height: 200px;
+	overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+	display: block;
+}
+
+.row.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row.display-flex>[class*='col-'] {
+	display: flex;
+	flex-direction: column;
+}
+
+
